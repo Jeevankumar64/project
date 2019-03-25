@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/vv2trainee4/Desktop/pd/decryption/pd/work
+QoS Summary for Hybrid_Decryption_Top
+==========================================================================================
+Metric                          generic         map             syn_opt         final          
+==========================================================================================
+Slack (ps):                       189               0               0               0
+  R2R (ps):                       189               0               0               0
+  I2R (ps):                     5,117           4,852           4,841           4,841
+  R2O (ps):                     4,885           6,032           6,032           6,032
+  I2O (ps):                  no_value        no_value        no_value        no_value
+  CG  (ps):                     5,776           5,727           5,771           5,771
+TNS (ps):                           0               0               0               0
+  R2R (ps):                         0               0               0               0
+  I2R (ps):                         0               0               0               0
+  R2O (ps):                         0               0               0               0
+  I2O (ps):                  no_value        no_value        no_value        no_value
+  CG  (ps):                         0               0               0               0
+Failing Paths:                      0               0               0               0
+Cell Area:                  1,513,575         559,098         550,006         550,006
+Total Cell Area:            1,513,575         559,098         550,006         550,006
+Leaf Instances:               191,315         109,845         106,370         106,370
+Total Instances:              191,315         109,845         106,370         106,370
+Utilization (%):                 0.00            0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value        no_value
+==========================================================================================
+CPU  Runtime (h:m:s):        00:07:17        00:04:20        00:04:20        00:00:04
+Real Runtime (h:m:s):        00:10:25        00:11:04        00:07:26        00:00:47
+CPU  Elapsed (h:m:s):        00:07:25        00:11:45        00:16:05        00:16:09
+Real Elapsed (h:m:s):        00:10:27        00:21:31        00:28:57        00:29:44
+Memory (MB):                  1234.74         1304.23         1265.21         1265.21
+==========================================================================================
+==========================================================================================
+Flow Settings:
+==========================================================================================
+Total Runtime (h:m:s): 00:30:28
+Total Memory (MB):     1265.21
+Executable Version:    17.22-s017_1
+==========================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

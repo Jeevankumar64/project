@@ -1,0 +1,142 @@
+
+/*
+`timescale 1ns/1ps
+`include "Key_Expantion.sv"
+`include "InverseShiftRows.sv"  
+`include "InverseSubBytes.sv"   
+`include "InverseMixColumn.sv"  
+`include "DecryAdd_RoundKey.sv" 
+`include "g_function.sv"
+`include "S_Box.sv"
+`include "Inverse_SBOX.sv"
+`include "decLastround.sv"
+`include "DecrypRounds.sv"
+`include "AES_Decryption_top.sv"
+`include "ECC_Decryption.sv"
+*/
+module Hybrid_Decryption_Top (
+    input clk,
+    input rst,
+    input [255:0] C1,          // ECC Encrypted Point 1
+    input [255:0] C2,          // ECC Encrypted Point 2
+    input [255:0] d,           // ECC Private Key
+    input [127:0] Cipher_test, // AES Cipher Text (encrypted message)
+    input [127:0] Aes_key,
+    output [127:0] plain_text, // Final Decrypted Plaintext
+    output [127:0] M_out,      // Intermediate ECC Output (used as AES key)
+    output Done                // Final Done Signal
+);
+
+    wire [127:0] ecc_out;      // ECC decrypted key (used as AES key)
+    wire ecc_done;
+    wire aes_done;
+
+    reg aes_enable;
+    wire gated_clk;
+
+    assign gated_clk = clk & aes_enable;
+
+    // ECC Decryption: always enabled
+    ecc_decryption ecc_uut (
+        .clk(clk),
+        .rst(rst),
+        .C1(C1),
+        .C2(C2),
+        .d(d),
+        .M(ecc_out),
+        .Done(ecc_done)
+    );
+
+    // AES Decryption: gated clock
+    AES_Decryption aes_uut (
+        .clk(gated_clk),
+      .rst(~ecc_done),
+        .Cipher_test(Cipher_test),
+        .Aes_key(ecc_out),          // Use ECC decrypted output as AES key
+        .plain_text(plain_text),
+        .Done(aes_done)
+    );
+
+    // Control signal to enable AES only after ECC is done
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            aes_enable <= 1'b0;
+        else if (ecc_done)
+            aes_enable <= 1'b1;
+    end
+
+    assign M_out = ecc_out;
+    assign Done = ecc_done & aes_done;
+
+endmodule
+
+/*`timescale 1ns / 1ps
+
+module Hybrid_Decryption_Top_tb;
+
+  reg clk;
+  reg rst;
+  reg [255:0] C1;
+  reg [255:0] C2;
+  reg [255:0] d;
+  reg [127:0] Cipher_test;
+
+  wire [127:0] plain_text;
+  wire [255:0] M_out;
+  wire Done;
+
+  // Instantiate the hybrid decryption top module
+  Hybrid_Decryption_Top uut (
+    .clk(clk),
+    .rst(rst),
+    .C1(C1),
+    .C2(C2),
+    .d(d),
+    .Cipher_test(Cipher_test),
+    .plain_text(plain_text),
+    .Done(Done),
+    .M_out(M_out)
+  );
+
+  // Clock generation
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk; // 100MHz clock
+  end
+
+  // Stimulus
+  initial begin
+    $dumpfile("hybrid_decryption_tb.vcd");
+    $dumpvars(0, Hybrid_Decryption_Top_tb);
+
+    $display("Starting Hybrid ECC-AES Decryption Testbench...");
+
+    // Initialize inputs
+    rst = 1;
+    C1 = 256'd0;
+    C2 = 256'd0;
+    d  = 256'd0;
+    Cipher_test = 128'd0;
+
+    // Apply reset
+    #20 rst = 0;
+
+    // Apply test vector
+    #10;
+    C1 = 256'h60ef2fd612b0e1b95e8103cf7e73cbf4ad86726b83ff5350692db588e1497801;
+    C2 = 256'ha9e2238787a0b8d6b6cea0cb03ee33d88fa3ced5e4e926c5d0395a05172b8dc3;
+    d  = 256'hAABBCCDDEEFF112233445566778899AABBCCDDEEFF00112233445566778899AA;
+    Cipher_test = 128'hb05cc06948fea128f1207f5c7dcceb7a;
+
+    // Wait for decryption to complete
+    wait (Done);
+
+    $display("[%0t ns] Decryption Complete", $time);
+    $display("Plain Text = %h", plain_text);
+    $display("ECC AES Key (M_out) = %h", M_out);
+
+    #20 $finish;
+  end
+
+endmodule
+*/

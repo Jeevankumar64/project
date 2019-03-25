@@ -1,0 +1,432 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.14-s077_1, built Fri May 4 09:53:52 PDT 2018
+Options:	
+Date:		Mon Mar 18 19:58:47 2019
+Host:		compute-srv2.eda.atme.in (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (8cores*64cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	17.1	Denied
+		invsb	Innovus Implementation System Basic	17.1	checkout succeeded
+		4 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (1031 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> win
+<CMD> save_global Default.globals
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {../library/gsclib090_tech.lef ../library/gsclib090_macro.lef}
+<CMD> set init_design_settop 0
+<CMD> set init_verilog outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v
+<CMD> set init_mmmc_file ../../../../physical_design/work/Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#% Begin Load MMMC data ... (date=03/18 19:57:09, mem=492.0M)
+**ERROR: (TCLCMD-995):	Can not open file '../library/gpdk045.tch' for RC corner
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {../library/gsclib090_tech.lef ../library/gsclib090_macro.lef}
+<CMD> set init_design_settop 0
+<CMD> set init_verilog outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v
+<CMD> set init_mmmc_file ../../../../physical_design/work/Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+% Begin Load MMMC data ... (date=03/18 19:57:16, mem=491.9M)
+**ERROR: (TCLCMD-995):	Can not open file '../library/gpdk045.tch' for RC corner
+<CMD> save_global Default.globals
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {../library/gsclib090_tech.lef ../library/gsclib090_macro.lef}
+<CMD> set init_design_settop 0
+<CMD> set init_verilog outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v
+<CMD> set init_mmmc_file ../../../../physical_design/work/Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+% Begin Load MMMC data ... (date=03/18 20:06:08, mem=495.2M)
+**ERROR: (TCLCMD-995):	Can not open file '../library/gpdk045.tch' for RC corner
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {../library/gsclib090_tech.lef ../library/gsclib090_macro.lef}
+<CMD> set init_design_settop 0
+<CMD> set init_verilog outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v
+<CMD> set init_mmmc_file ../../../../physical_design/work/Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+% Begin Load MMMC data ... (date=03/18 20:06:08, mem=494.1M)
+**ERROR: (TCLCMD-995):	Can not open file '../library/gpdk045.tch' for RC corner
+<CMD> save_global Default.globals
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {../library/gsclib090_tech.lef ../library/gsclib090_macro.lef}
+<CMD> set init_design_settop 0
+<CMD> set init_verilog outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v
+<CMD> set init_mmmc_file ../../../../physical_design/work/Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+% Begin Load MMMC data ... (date=03/18 20:11:31, mem=502.6M)
+% End Load MMMC data ... (date=03/18 20:11:31, total cpu=0:00:00.0, real=0:00:00.0, peak res=502.6M, current mem=501.8M)
+MIN_RC MAX_RC
+
+Loading LEF file ../library/gsclib090_tech.lef ...
+**ERROR: (IMPLF-111):	Layer 'Metal1' is not defined
+**ERROR: (IMPLF-224):	Failed to create via 'VIA1X'.
+**ERROR: (IMPLF-3):	Error found when processing LEF file '../library/gsclib090_tech.lef'. The subsequent file content is ignored. Refer to error messages above for details. Fix the errors, and restart 'Innovus' again.
+Type 'man IMPLF-3' for more detail.
+**ERROR: (IMPLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Innovus.
+**ERROR: (IMPLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Innovus.
+**ERROR: **ERROR: (IMPSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Please exit the tools and fix the errors first, then re-load design again.
+
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {../library/gsclib090_tech.lef ../library/gsclib090_macro.lef}
+<CMD> set init_design_settop 0
+<CMD> set init_verilog outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v
+<CMD> set init_mmmc_file ../../../../physical_design/work/Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+% Begin Load MMMC data ... (date=03/18 20:11:42, mem=507.4M)
+The existing analysis_view 'BEST' has been replaced with new attributes.
+The existing analysis_view 'WORST' has been replaced with new attributes.
+INFO: New setup and hold views overwrite old settings during design initialization
+% End Load MMMC data ... (date=03/18 20:11:42, total cpu=0:00:00.0, real=0:00:00.0, peak res=507.4M, current mem=507.4M)
+MIN_RC MAX_RC
+
+Loading LEF file ../library/gsclib090_tech.lef ...
+**ERROR: (IMPLF-111):	Layer 'Metal1' is not defined
+**ERROR: (IMPLF-224):	Failed to create via 'VIA1X'.
+**ERROR: (IMPLF-3):	Error found when processing LEF file '../library/gsclib090_tech.lef'. The subsequent file content is ignored. Refer to error messages above for details. Fix the errors, and restart 'Innovus' again.
+Type 'man IMPLF-3' for more detail.
+**ERROR: (IMPLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Innovus.
+**ERROR: (IMPLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Innovus.
+**ERROR: **ERROR: (IMPSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Please exit the tools and fix the errors first, then re-load design again.
+
+<CMD> save_global Default.globals
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {../../../../physical_design/library/gsclib045_tech.lef ../../../../physical_design/library/gsclib045_macro.lef}
+<CMD> set init_design_settop 0
+<CMD> set init_verilog outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v
+<CMD> set init_mmmc_file ../../../../physical_design/work/Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+% Begin Load MMMC data ... (date=03/18 20:13:30, mem=511.1M)
+The existing analysis_view 'BEST' has been replaced with new attributes.
+The existing analysis_view 'WORST' has been replaced with new attributes.
+INFO: New setup and hold views overwrite old settings during design initialization
+% End Load MMMC data ... (date=03/18 20:13:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=511.1M, current mem=509.5M)
+MIN_RC MAX_RC
+
+Loading LEF file ../../../../physical_design/library/gsclib045_tech.lef ...
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+
+Loading LEF file ../../../../physical_design/library/gsclib045_macro.lef ...
+Set DBUPerIGU to M2 pitch 400.
+INFO (LEFPARS-3000): There are still data after the END LIBRARY See file ../../../../physical_design/library/gsclib045_macro.lef at line 55372.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+viaInitial starts at Mon Mar 18 20:13:30 2019
+viaInitial ends at Mon Mar 18 20:13:30 2019
+Loading view definition file from ../../../../physical_design/work/Default.view
+Reading MIN_LIB timing library '/home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib' ...
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ACHCONX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'ACHCONX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'CI' of cell 'ACHCONX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CON' of cell 'ACHCONX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'CI' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'CI' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'CI' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ADDFHXL' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Read 479 cells in library 'fast' 
+Reading MAX_LIB timing library '/home/vv2trainee4/Desktop/pd/decryption/pd/library/slow.lib' ...
+Read 479 cells in library 'slow' 
+*** End library_loading (cpu=0.02min, real=0.02min, mem=12.9M, fe_cpu=3.75min, fe_real=14.73min, fe_mem=601.9M) ***
+% Begin Load netlist data ... (date=03/18 20:13:31, mem=576.3M)
+*** Begin netlist parsing (mem=601.9M) ***
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Created 479 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v'
+
+*** Memory Usage v#1 (Current mem = 652.910M, initial mem = 236.734M) ***
+*** End netlist parsing (cpu=0:00:00.8, real=0:00:01.0, mem=652.9M) ***
+% End Load netlist data ... (date=03/18 20:13:32, total cpu=0:00:00.8, real=0:00:01.0, peak res=584.0M, current mem=584.0M)
+Top level cell is Hybrid_Decryption_Top.
+Hooked 958 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell Hybrid_Decryption_Top ...
+*** Netlist is unique.
+** info: there are 1231 modules.
+** info: there are 106370 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 742.582M, initial mem = 236.734M) ***
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'gsclib090site' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file 'outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc' ...
+Current (total cpu=0:03:47, real=0:14:46, peak res=762.5M, current mem=762.5M)
+**WARN: (TCLCMD-1457):	Skipped unsupported command: set_units (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 9).
+
+**WARN: (TCLCMD-1457):	Skipped unsupported command: set_units (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 10).
+
+Hybrid_Decryption_Top
+**WARN: (TCLCMD-1142):	Virtual clock 'VCLK' is being created with no source objects. (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 16).
+
+**WARN: (TCLNL-330):	set_input_delay on clock root 'clk' is not supported. You should use the -source option to set_clock_latency to provide this offset. You can also use the global timing_allow_input_delay_on_clock_source to allow set_input_delay assertion to have an effect on clock source paths beginning at this clock root. (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 31).
+
+**WARN: (TCLNL-330):	set_input_delay on clock root 'clk' is not supported. You should use the -source option to set_clock_latency to provide this offset. You can also use the global timing_allow_input_delay_on_clock_source to allow set_input_delay assertion to have an effect on clock source paths beginning at this clock root. (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 1057).
+
+INFO (CTE): Reading of timing constraints file outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc completed, with 5 WARNING
+Ending "Constraint file reading stats" (total cpu=0:00:00.4, real=0:00:01.0, peak res=780.7M, current mem=780.7M)
+Current (total cpu=0:03:48, real=0:14:47, peak res=780.7M, current mem=780.7M)
+**WARN: (TA-976):	Path groups asserted by the group_path constraint are considered by the software to be global in nature - they cannot be restricted to specific constraint modes. Due to this restriction, the group_path constraint is not supported directly in the constraint files which are configured in mode-specific commands such as create_constraint_mode. The current group_path entry will be ignored. You can enter the group_path constraint interactively or as part of a general command script -  where it will be interpreted as global and will be in effect for all modes.
+Total number of combinational cells: 317
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX4 CLKINVX3 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+Extraction setup Started 
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+Importing multi-corner technology file(s) for preRoute extraction...
+../../../../physical_design/library/gpdk045.tch
+Completed (cpu: 0:00:06.9 real: 0:00:08.0)
+Set Shrink Factor to 1.00000
+Summary of Active RC-Corners : 
+ 
+ Analysis View: WORST
+    RC-Corner Name        : MIN_RC
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '../../../../physical_design/library/gpdk045.tch'
+ 
+ Analysis View: BEST
+    RC-Corner Name        : MAX_RC
+    RC-Corner Index       : 1
+    RC-Corner Temperature : -40 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '../../../../physical_design/library/gpdk045.tch'
+Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+<CMD> checkDesign -netlist
+Creating directory checkDesign.
+############################################################################
+# Innovus Netlist Design Rule Check
+# Mon Mar 18 20:20:35 2019
+
+############################################################################
+Design: Hybrid_Decryption_Top
+
+------ Design Summary:
+Total Standard Cell Number   (cells) : 106370
+Total Block Cell Number      (cells) : 0
+Total I/O Pad Cell Number    (cells) : 0
+Total Standard Cell Area     ( um^2) : 194566.19
+Total Block Cell Area        ( um^2) : 0.00
+Total I/O Pad Cell Area      ( um^2) : 0.00
+
+------ Design Statistics:
+
+Number of Instances            : 106370
+Number of Non-uniquified Insts : 106345
+Number of Nets                 : 108004
+Average number of Pins per Net : 3.66
+Maximum number of Pins in Net  : 1281
+
+------ I/O Port summary
+
+Number of Primary I/O Ports    : 1283
+Number of Input Ports          : 1026
+Number of Output Ports         : 257
+Number of Bidirectional Ports  : 0
+Number of Power/Ground Ports   : 0
+Number of Floating Ports                     *: 256
+Number of Ports Connected to Multiple Pads   *: 0
+Number of Ports Connected to Core Instances   : 1027
+**WARN: (IMPREPO-200):	There are 256 Floating Ports in the top design.
+**WARN: (IMPREPO-202):	There are 1027 Ports connected to core instances.
+
+------ Design Rule Checking:
+
+Number of Output Pins connect to Power/Ground *: 1
+Number of Insts with Input Pins tied together ?: 104
+**WARN: (IMPDB-2148):	TieHi term 'Y' of instance 'ecc_uut_k1/g150906' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[257]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[256]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[255]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[254]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[253]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[252]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[251]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[250]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[249]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[248]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[247]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[246]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[245]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[244]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[243]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[242]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[241]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[240]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (IMPDB-2148):	TieHi term 'SE' of instance 'ecc_uut_k1/r3_Out_reg[239]' is tied to net 'ecc_uut_k1/c_load'.  However, none of the instance's power terms is connected to the net.  Usually an instance's tieHi/Lo term and one of the Power/Ground (P/G) terms of the instance should connect to the same P/G net.  Check the input netlist, and also make sure proper global net connections are applied to the instance's tieHi/Lo terms and P/G terms.
+**WARN: (EMS-27):	Message (IMPDB-2148) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Number of TieHi/Lo term nets not connected to instance's PG terms ?: 265
+**WARN: (IMPDB-2136):	Input term 'A1' of  instance 'aes_uut/g153025' does not connect to a 'TieLo ' net. The netlist is not correct or the net for connecting tie high/low signals is not specified. To resolve this problem, check your netlist or run globalNetConnect to specify the tie high/low signal nets.
+**WARN: (IMPDB-2138):	Output term Y of inst ecc_uut_k1/g150906 connected to PG net ecc_uut_k1/c_load.
+Number of Input/InOut Floating Pins            : 1
+Number of Output Floating Pins                 : 0
+Number of Output Term Marked TieHi/Lo         *: 0
+
+**WARN: (IMPREPO-215):	There are 1 Output pins connected to Power Ground net.
+**WARN: (IMPREPO-216):	There are 104 Instances with input pins tied together.
+**WARN: (IMPREPO-217):	There are 265 TieHi/Lo term nets not connected to instance's PG terms.
+**WARN: (IMPREPO-218):	There are 1 Floating Instance terminals.
+**WARN: (IMPREPO-221):	There are 1 Output term shorted to Power Ground net.
+Number of nets with tri-state drivers          : 0
+Number of nets with parallel drivers           : 0
+Number of nets with multiple drivers           : 258
+Number of nets with no driver (No FanIn)       : 320
+Number of Output Floating nets (No FanOut)     : 789
+Number of High Fanout nets (>50)               : 9
+**WARN: (IMPREPO-227):	There are 9 High Fanout nets (>50).
+**ERROR: (IMPREPO-100):	Module 'BUFX20' has inst 'ecc_uut_k1/g150906' tie-hi/lo output at 'Y'.
+Check and correct the netlist data.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[0]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[1]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[2]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[3]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[4]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[5]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[6]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[7]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[8]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[9]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[10]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[11]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[12]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[13]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[14]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[15]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[16]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[17]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[18]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (IMPREPO-104):	Net 'ecc_uut_k1/c_in[19]' in module 'multiplier' corresponds to the hinst 'ecc_uut_k1' has multiple drivers, please check report file 'checkDesign/output2Driver.main.htm' in detail. Check your netlist connection to see if this is expected.
+**WARN: (EMS-27):	Message (IMPREPO-104) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPREPO-228):	There are 258 Verilog nets with multiple drivers.
+Design check done.
+Report saved in file checkDesign/Hybrid_Decryption_Top.main.htm.ascii.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDB-2138           1  %s term %s of %sinst %s connected to PG ...
+WARNING   IMPDB-2136           1  %s term '%s' of %s instance '%s' does no...
+WARNING   IMPDB-2148         265  %sterm '%s' of %sinstance '%s' is tied t...
+WARNING   IMPREPO-200          1  There are %d Floating Ports in the top d...
+WARNING   IMPREPO-202          1  There are %d Ports connected to core ins...
+WARNING   IMPREPO-215          1  There are %d Output pins connected to Po...
+WARNING   IMPREPO-216          1  There are %d Instances with input pins t...
+WARNING   IMPREPO-217          1  There are %d TieHi/Lo term nets not conn...
+WARNING   IMPREPO-218          1  There are %d Floating Instance terminals...
+WARNING   IMPREPO-221          1  There are %d Output term shorted to Powe...
+WARNING   IMPREPO-227          1  There are %d High Fanout nets (>50).     
+ERROR     IMPREPO-100          1  Module '%s' has inst '%s' tie-hi/lo outp...
+WARNING   IMPREPO-228          1  There are %d Verilog nets with multiple ...
+WARNING   IMPREPO-104        258  Net '%s' in module '%s' corresponds to t...
+*** Message Summary: 534 warning(s), 1 error(s)
+
+Innovus terminated by external (TERM) signal.

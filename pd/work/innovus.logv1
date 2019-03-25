@@ -1,0 +1,260 @@
+[03/25 19:20:51      0s] 
+[03/25 19:20:51      0s] Cadence Innovus(TM) Implementation System.
+[03/25 19:20:51      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[03/25 19:20:51      0s] 
+[03/25 19:20:51      0s] Version:	v17.14-s077_1, built Fri May 4 09:53:52 PDT 2018
+[03/25 19:20:51      0s] Options:	
+[03/25 19:20:51      0s] Date:		Mon Mar 25 19:20:51 2019
+[03/25 19:20:51      0s] Host:		compute-srv2.eda.atme.in (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (8cores*64cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB)
+[03/25 19:20:51      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[03/25 19:20:51      0s] 
+[03/25 19:20:51      0s] License:
+[03/25 19:20:51      0s] 		invs	Innovus Implementation System	17.1	Denied
+[03/25 19:20:51      0s] 		invsb	Innovus Implementation System Basic	17.1	checkout succeeded
+[03/25 19:20:51      0s] 		4 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[03/25 19:21:06     13s] @(#)CDS: Innovus v17.14-s077_1 (64bit) 05/04/2018 09:53 (Linux 2.6.18-194.el5)
+[03/25 19:21:06     13s] @(#)CDS: NanoRoute 17.14-s077_1 NR180419-1718/17_14-UB (database version 2.30, 416.7.1) {superthreading v1.44}
+[03/25 19:21:06     13s] @(#)CDS: AAE 17.14-s013 (64bit) 05/04/2018 (Linux 2.6.18-194.el5)
+[03/25 19:21:06     13s] @(#)CDS: CTE 17.14-s016_1 () Apr 11 2018 04:18:24 ( )
+[03/25 19:21:06     13s] @(#)CDS: SYNTECH 17.14-s005_1 () Apr  4 2018 06:31:58 ( )
+[03/25 19:21:06     13s] @(#)CDS: CPE v17.14-s032
+[03/25 19:21:06     13s] @(#)CDS: IQRC/TQRC 16.1.1-s220 (64bit) Fri Aug  4 09:53:48 PDT 2017 (Linux 2.6.18-194.el5)
+[03/25 19:21:06     13s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[03/25 19:21:06     13s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[03/25 19:21:06     13s] @(#)CDS: RCDB 11.10
+[03/25 19:21:06     13s] --- Running on compute-srv2.eda.atme.in (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (8cores*64cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB) ---
+[03/25 19:21:06     13s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_88446_compute-srv2.eda.atme.in_vv2trainee4_SSE2cC.
+
+[03/25 19:21:07     13s] Change the soft stacksize limit to 0.2%RAM (1031 mbytes). Set global soft_stack_size_limit to change the value.
+[03/25 19:21:07     13s] 
+[03/25 19:21:07     13s] **INFO:  MMMC transition support version v31-84 
+[03/25 19:21:07     13s] 
+[03/25 19:21:07     13s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[03/25 19:21:07     13s] <CMD> suppressMessage ENCEXT-2799
+[03/25 19:21:07     14s] <CMD> getVersion
+[03/25 19:21:10     14s] <CMD> win
+[03/25 19:23:27     37s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[03/25 19:23:27     37s] <CMD> set defHierChar /
+[03/25 19:23:27     37s] <CMD> set distributed_client_message_echo 1
+[03/25 19:23:27     37s] <CMD> set distributed_mmmc_disable_reports_auto_redirection 0
+[03/25 19:23:27     37s] <CMD> set enc_enable_print_mode_command_reset_options 1
+[03/25 19:23:27     37s] <CMD> set init_design_settop 0
+[03/25 19:23:27     37s] <CMD> set init_gnd_net VSS
+[03/25 19:23:27     37s] <CMD> set init_lef_file {../../../../physical_design/library/gsclib045_tech.lef ../../../../physical_design/library/gsclib045_macro.lef}
+[03/25 19:23:27     37s] <CMD> set init_mmmc_file ../../../../physical_design/work/Default.view
+[03/25 19:23:27     37s] <CMD> set init_oa_search_lib {}
+[03/25 19:23:27     37s] <CMD> set init_pwr_net VDD
+[03/25 19:23:27     37s] <CMD> set init_verilog outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v
+[03/25 19:23:27     37s] <CMD> set latch_time_borrow_mode max_borrow
+[03/25 19:23:27     37s] <CMD> set pegDefaultResScaleFactor 1
+[03/25 19:23:27     37s] <CMD> set pegDetailResScaleFactor 1
+[03/25 19:23:27     37s] <CMD> set report_inactive_arcs_format {from to when arc_type sense reason}
+[03/25 19:23:27     37s] <CMD> set soft_stack_size_limit 1031
+[03/25 19:23:28     37s] <CMD> init_design
+[03/25 19:23:28     38s] #% Begin Load MMMC data ... (date=03/25 19:23:28, mem=479.3M)
+[03/25 19:23:28     38s] #% End Load MMMC data ... (date=03/25 19:23:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=479.3M, current mem=478.9M)
+[03/25 19:23:28     38s] 
+[03/25 19:23:28     38s] Loading LEF file ../../../../physical_design/library/gsclib045_tech.lef ...
+[03/25 19:23:28     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+[03/25 19:23:28     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+[03/25 19:23:28     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+[03/25 19:23:28     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+[03/25 19:23:28     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+[03/25 19:23:28     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+[03/25 19:23:28     38s] 
+[03/25 19:23:28     38s] Loading LEF file ../../../../physical_design/library/gsclib045_macro.lef ...
+[03/25 19:23:28     38s] Set DBUPerIGU to M2 pitch 400.
+[03/25 19:23:29     38s] INFO (LEFPARS-3000): There are still data after the END LIBRARY See file ../../../../physical_design/library/gsclib045_macro.lef at line 55372.
+[03/25 19:23:29     38s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[03/25 19:23:29     38s] Type 'man IMPLF-200' for more detail.
+[03/25 19:23:29     38s] 
+[03/25 19:23:29     38s] viaInitial starts at Mon Mar 25 19:23:29 2019
+viaInitial ends at Mon Mar 25 19:23:29 2019
+Loading view definition file from ../../../../physical_design/work/Default.view
+[03/25 19:23:29     38s] Reading MIN_LIB timing library '/home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib' ...
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ACHCONX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'ACHCONX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'CI' of cell 'ACHCONX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CON' of cell 'ACHCONX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'CI' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX1' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'CI' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX2' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'CI' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX4' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'ADDFHXL' is not defined in the library. (File /home/vv2trainee4/Desktop/pd/decryption/pd/library/fast.lib)
+[03/25 19:23:29     38s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/25 19:23:29     38s] Read 479 cells in library 'fast' 
+[03/25 19:23:29     38s] Reading MAX_LIB timing library '/home/vv2trainee4/Desktop/pd/decryption/pd/library/slow.lib' ...
+[03/25 19:23:30     39s] Read 479 cells in library 'slow' 
+[03/25 19:23:30     39s] *** End library_loading (cpu=0.02min, real=0.02min, mem=12.9M, fe_cpu=0.66min, fe_real=2.65min, fe_mem=588.9M) ***
+[03/25 19:23:30     39s] #% Begin Load netlist data ... (date=03/25 19:23:30, mem=551.3M)
+[03/25 19:23:30     39s] *** Begin netlist parsing (mem=588.9M) ***
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[03/25 19:23:30     39s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[03/25 19:23:30     39s] To increase the message display limit, refer to the product command reference manual.
+[03/25 19:23:30     39s] Created 479 new cells from 2 timing libraries.
+[03/25 19:23:30     39s] Reading netlist ...
+[03/25 19:23:30     39s] Backslashed names will retain backslash and a trailing blank character.
+[03/25 19:23:30     39s] Reading verilog netlist 'outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.v'
+[03/25 19:23:31     40s] 
+[03/25 19:23:31     40s] *** Memory Usage v#1 (Current mem = 637.895M, initial mem = 228.730M) ***
+[03/25 19:23:31     40s] *** End netlist parsing (cpu=0:00:00.8, real=0:00:01.0, mem=637.9M) ***
+[03/25 19:23:31     40s] #% End Load netlist data ... (date=03/25 19:23:31, total cpu=0:00:00.8, real=0:00:01.0, peak res=560.6M, current mem=560.6M)
+[03/25 19:23:31     40s] Top level cell is Hybrid_Decryption_Top.
+[03/25 19:23:31     40s] Hooked 958 DB cells to tlib cells.
+[03/25 19:23:31     40s] Starting recursive module instantiation check.
+[03/25 19:23:31     40s] No recursion found.
+[03/25 19:23:31     40s] Building hierarchical netlist for Cell Hybrid_Decryption_Top ...
+[03/25 19:23:31     41s] *** Netlist is unique.
+[03/25 19:23:31     41s] Setting Std. cell height to 3420 DBU (smallest netlist inst).
+[03/25 19:23:31     41s] ** info: there are 1231 modules.
+[03/25 19:23:31     41s] ** info: there are 106370 stdCell insts.
+[03/25 19:23:31     41s] 
+[03/25 19:23:31     41s] *** Memory Usage v#1 (Current mem = 728.566M, initial mem = 228.730M) ***
+[03/25 19:23:31     41s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/25 19:23:31     41s] Type 'man IMPFP-3961' for more detail.
+[03/25 19:23:31     41s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/25 19:23:31     41s] Type 'man IMPFP-3961' for more detail.
+[03/25 19:23:31     41s] Set Default Net Delay as 1000 ps.
+[03/25 19:23:31     41s] Set Default Net Load as 0.5 pF. 
+[03/25 19:23:31     41s] Set Default Input Pin Transition as 0.1 ps.
+[03/25 19:23:32     41s] Extraction setup Delayed 
+[03/25 19:23:32     41s] *Info: initialize multi-corner CTS.
+[03/25 19:23:32     41s] Reading timing constraints file 'outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc' ...
+[03/25 19:23:32     41s] Current (total cpu=0:00:41.8, real=0:02:41, peak res=739.8M, current mem=739.8M)
+[03/25 19:23:32     41s] **WARN: (TCLCMD-1457):	Skipped unsupported command: set_units (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 9).
+[03/25 19:23:32     41s] 
+[03/25 19:23:32     41s] **WARN: (TCLCMD-1457):	Skipped unsupported command: set_units (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 10).
+[03/25 19:23:32     41s] 
+[03/25 19:23:32     41s] **WARN: (TCLCMD-1142):	Virtual clock 'VCLK' is being created with no source objects. (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 16).
+[03/25 19:23:32     41s] 
+[03/25 19:23:32     41s] **WARN: (TCLNL-330):	set_input_delay on clock root 'clk' is not supported. You should use the -source option to set_clock_latency to provide this offset. You can also use the global timing_allow_input_delay_on_clock_source to allow set_input_delay assertion to have an effect on clock source paths beginning at this clock root. (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 31).
+[03/25 19:23:32     41s] 
+[03/25 19:23:32     42s] **WARN: (TCLNL-330):	set_input_delay on clock root 'clk' is not supported. You should use the -source option to set_clock_latency to provide this offset. You can also use the global timing_allow_input_delay_on_clock_source to allow set_input_delay assertion to have an effect on clock source paths beginning at this clock root. (File outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc, Line 1057).
+[03/25 19:23:32     42s] 
+[03/25 19:23:32     42s] INFO (CTE): Reading of timing constraints file outputs_Mar18-19:26:32/Hybrid_Decryption_Top_m.sdc completed, with 5 WARNING
+[03/25 19:23:32     42s] Ending "Constraint file reading stats" (total cpu=0:00:00.4, real=0:00:00.0, peak res=758.0M, current mem=758.0M)
+[03/25 19:23:33     42s] Current (total cpu=0:00:42.2, real=0:02:42, peak res=758.0M, current mem=758.0M)
+[03/25 19:23:33     42s] **WARN: (TA-976):	Path groups asserted by the group_path constraint are considered by the software to be global in nature - they cannot be restricted to specific constraint modes. Due to this restriction, the group_path constraint is not supported directly in the constraint files which are configured in mode-specific commands such as create_constraint_mode. The current group_path entry will be ignored. You can enter the group_path constraint interactively or as part of a general command script -  where it will be interpreted as global and will be in effect for all modes.
+[03/25 19:23:33     42s] Creating Cell Server ...(0, 1, 1, 1)
+[03/25 19:23:33     42s] Summary for sequential cells identification: 
+[03/25 19:23:33     42s]   Identified SBFF number: 112
+[03/25 19:23:33     42s]   Identified MBFF number: 0
+[03/25 19:23:33     42s]   Identified SB Latch number: 0
+[03/25 19:23:33     42s]   Identified MB Latch number: 0
+[03/25 19:23:33     42s]   Not identified SBFF number: 8
+[03/25 19:23:33     42s]   Not identified MBFF number: 0
+[03/25 19:23:33     42s]   Not identified SB Latch number: 0
+[03/25 19:23:33     42s]   Not identified MB Latch number: 0
+[03/25 19:23:33     42s]   Number of sequential cells which are not FFs: 32
+[03/25 19:23:33     42s] Total number of combinational cells: 317
+[03/25 19:23:33     42s] Total number of sequential cells: 152
+[03/25 19:23:33     42s] Total number of tristate cells: 10
+[03/25 19:23:33     42s] Total number of level shifter cells: 0
+[03/25 19:23:33     42s] Total number of power gating cells: 0
+[03/25 19:23:33     42s] Total number of isolation cells: 0
+[03/25 19:23:33     42s] Total number of power switch cells: 0
+[03/25 19:23:33     42s] Total number of pulse generator cells: 0
+[03/25 19:23:33     42s] Total number of always on buffers: 0
+[03/25 19:23:33     42s] Total number of retention cells: 0
+[03/25 19:23:33     42s] List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+[03/25 19:23:33     42s] Total number of usable buffers: 16
+[03/25 19:23:33     42s] List of unusable buffers:
+[03/25 19:23:33     42s] Total number of unusable buffers: 0
+[03/25 19:23:33     42s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX4 CLKINVX3 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+[03/25 19:23:33     42s] Total number of usable inverters: 19
+[03/25 19:23:33     42s] List of unusable inverters:
+[03/25 19:23:33     42s] Total number of unusable inverters: 0
+[03/25 19:23:33     42s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+[03/25 19:23:33     42s] Total number of identified usable delay cells: 8
+[03/25 19:23:33     42s] List of identified unusable delay cells:
+[03/25 19:23:33     42s] Total number of identified unusable delay cells: 0
+[03/25 19:23:33     42s] Creating Cell Server, finished. 
+[03/25 19:23:33     42s] 
+[03/25 19:23:33     42s] Deleting Cell Server ...
+[03/25 19:23:33     42s] Patterns Extraction called explicitly through PreRoutePatternsIfNeeded call 
+[03/25 19:23:33     42s] Extraction setup Started 
+[03/25 19:23:33     42s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[03/25 19:23:33     42s] Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+[03/25 19:23:34     43s] Importing multi-corner technology file(s) for preRoute extraction...
+[03/25 19:23:34     43s] ../../../../physical_design/library/gpdk045.tch
+[03/25 19:23:40     48s] Completed (cpu: 0:00:06.4 real: 0:00:07.0)
+[03/25 19:23:40     48s] Set Shrink Factor to 1.00000
+[03/25 19:23:40     48s] Summary of Active RC-Corners : 
+[03/25 19:23:40     48s]  
+[03/25 19:23:40     48s]  Analysis View: WORST
+[03/25 19:23:40     48s]     RC-Corner Name        : MIN_RC
+[03/25 19:23:40     48s]     RC-Corner Index       : 0
+[03/25 19:23:40     48s]     RC-Corner Temperature : 125 Celsius
+[03/25 19:23:40     48s]     RC-Corner Cap Table   : ''
+[03/25 19:23:40     48s]     RC-Corner PreRoute Res Factor         : 1
+[03/25 19:23:40     48s]     RC-Corner PreRoute Cap Factor         : 1
+[03/25 19:23:40     48s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[03/25 19:23:40     48s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[03/25 19:23:40     48s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[03/25 19:23:40     48s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[03/25 19:23:40     48s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[03/25 19:23:40     48s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[03/25 19:23:40     48s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[03/25 19:23:40     48s]     RC-Corner Technology file: '../../../../physical_design/library/gpdk045.tch'
+[03/25 19:23:40     48s]  
+[03/25 19:23:40     48s]  Analysis View: BEST
+[03/25 19:23:40     48s]     RC-Corner Name        : MAX_RC
+[03/25 19:23:40     48s]     RC-Corner Index       : 1
+[03/25 19:23:40     48s]     RC-Corner Temperature : -40 Celsius
+[03/25 19:23:40     48s]     RC-Corner Cap Table   : ''
+[03/25 19:23:40     48s]     RC-Corner PreRoute Res Factor         : 1
+[03/25 19:23:40     48s]     RC-Corner PreRoute Cap Factor         : 1
+[03/25 19:23:40     48s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[03/25 19:23:40     48s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[03/25 19:23:40     48s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[03/25 19:23:40     48s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[03/25 19:23:40     48s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[03/25 19:23:40     48s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[03/25 19:23:40     48s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[03/25 19:23:40     48s]     RC-Corner Technology file: '../../../../physical_design/library/gpdk045.tch'
+[03/25 19:23:40     48s] Technology file '../../../../physical_design/library/gpdk045.tch' associated with first view 'WORST' will be used as the primary corner for the multi-corner extraction.
+[03/25 19:23:40     48s] Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+[03/25 19:23:40     48s] 
+[03/25 19:23:40     48s] *** Summary of all messages that are not suppressed in this session:
+[03/25 19:23:40     48s] Severity  ID               Count  Summary                                  
+[03/25 19:23:40     48s] WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+[03/25 19:23:40     48s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[03/25 19:23:40     48s] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+[03/25 19:23:40     48s] WARNING   IMPVL-159          958  Pin '%s' of cell '%s' is defined in LEF ...
+[03/25 19:23:40     48s] WARNING   TA-976               1  Path groups asserted by the group_path c...
+[03/25 19:23:40     48s] WARNING   TCLCMD-1142          1  Virtual clock '%s' is being created with...
+[03/25 19:23:40     48s] WARNING   TCLCMD-1457          2  Skipped unsupported command: %s          
+[03/25 19:23:40     48s] WARNING   TCLNL-330            2  set_input_delay on clock root '%s' is no...
+[03/25 19:23:40     48s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[03/25 19:23:40     48s] *** Message Summary: 993 warning(s), 0 error(s)
+[03/25 19:23:40     48s] 

@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/vivarthan/Music/Project_major/Hybrid_aes_ecc/decryption/pd/work
+QoS Summary for Hybrid_Decryption_Top
+================================================================================
+Metric                          generic         map            
+================================================================================
+Slack (ps):                    -6,809          -7,590
+  R2R (ps):                    -6,809          -7,590
+  I2R (ps):                       -89            -295
+  R2O (ps):                       666             671
+  I2O (ps):                  no_value        no_value
+  CG  (ps):                       604             605
+TNS (ps):                  -3,457,956      -4,105,438
+  R2R (ps):                -3,457,956      -4,105,438
+  I2R (ps):                    -1,944         -28,433
+  R2O (ps):                         0               0
+  I2O (ps):                  no_value        no_value
+  CG  (ps):                         0               0
+Failing Paths:                  1,091           1,268
+Cell Area:                  1,598,129         614,239
+Total Cell Area:            1,598,129         614,239
+Leaf Instances:               202,398         117,996
+Total Instances:              202,398         117,996
+Utilization (%):                 0.00            0.00
+Tot. Net Length (um):        no_value        no_value
+Avg. Net Length (um):        no_value        no_value
+Route Overflow H (%):        no_value        no_value
+Route Overflow V (%):        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value
+  Tot Cong:                  no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:39:32        00:52:20
+Real Runtime (h:m:s):        00:35:36        00:41:09
+CPU  Elapsed (h:m:s):        00:39:37        00:01:57
+Real Elapsed (h:m:s):        00:35:39        00:46:48
+Memory (MB):                  2785.56         2782.95
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:46:53
+Total Memory (MB):     2782.95
+Executable Version:    21.14-s082_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

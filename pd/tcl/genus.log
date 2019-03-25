@@ -1,0 +1,37 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[00:45:53.403337] Configured Lic search path (21.01-s002): 5280@servervlsi
+
+Version: 21.14-s082_1, built Thu Jun 23 02:02:08 PDT 2022
+Options: 
+Date:    Sat Jun 21 00:45:53 2025
+Host:    sys145 (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (8cores*16cpus*1physical cpu*11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz 16384KB) (15925088KB)
+PID:     21533
+OS:      Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+
+[00:45:53.000042] Periodic Lic check successful
+[00:45:53.000051] Feature usage summary:
+[00:45:53.000051] Genus_Synthesis
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (4 seconds elapsed).
+
+WARNING: This version of the tool is 1093 days old.
+@genus:root: 1> write_template -simple -outfile decryption.tcl
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 32s, ST: 5s, FG: 5s, CPU: 4.5%}, MEM {curr: 1.1G, peak: 1.1G, phys curr: 0.4G, phys peak: 0.4G}, SYS {load: 0.4, cpu: 16, total: 15.2G, free: 9.2G}
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 33s, ST: 5s, FG: 5s, CPU: 4.5%}, MEM {curr: 1.1G, peak: 1.1G, phys curr: 0.4G, phys peak: 0.4G}, SYS {load: 0.4, cpu: 16, total: 15.2G, free: 9.2G}

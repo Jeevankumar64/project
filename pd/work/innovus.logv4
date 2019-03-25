@@ -1,0 +1,36 @@
+[03/25 19:57:24      0s] 
+[03/25 19:57:24      0s] Cadence Innovus(TM) Implementation System.
+[03/25 19:57:24      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[03/25 19:57:24      0s] 
+[03/25 19:57:24      0s] Version:	v17.14-s077_1, built Fri May 4 09:53:52 PDT 2018
+[03/25 19:57:24      0s] Options:	
+[03/25 19:57:24      0s] Date:		Mon Mar 25 19:57:24 2019
+[03/25 19:57:24      0s] Host:		compute-srv2.eda.atme.in (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (8cores*64cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB)
+[03/25 19:57:24      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[03/25 19:57:24      0s] 
+[03/25 19:57:24      0s] License:
+[03/25 19:57:24      0s] 		invs	Innovus Implementation System	17.1	Denied
+[03/25 19:57:24      0s] 		invsb	Innovus Implementation System Basic	17.1	checkout succeeded
+[03/25 19:57:24      0s] 		4 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[03/25 19:57:39     13s] @(#)CDS: Innovus v17.14-s077_1 (64bit) 05/04/2018 09:53 (Linux 2.6.18-194.el5)
+[03/25 19:57:39     13s] @(#)CDS: NanoRoute 17.14-s077_1 NR180419-1718/17_14-UB (database version 2.30, 416.7.1) {superthreading v1.44}
+[03/25 19:57:39     13s] @(#)CDS: AAE 17.14-s013 (64bit) 05/04/2018 (Linux 2.6.18-194.el5)
+[03/25 19:57:39     13s] @(#)CDS: CTE 17.14-s016_1 () Apr 11 2018 04:18:24 ( )
+[03/25 19:57:39     13s] @(#)CDS: SYNTECH 17.14-s005_1 () Apr  4 2018 06:31:58 ( )
+[03/25 19:57:39     13s] @(#)CDS: CPE v17.14-s032
+[03/25 19:57:39     13s] @(#)CDS: IQRC/TQRC 16.1.1-s220 (64bit) Fri Aug  4 09:53:48 PDT 2017 (Linux 2.6.18-194.el5)
+[03/25 19:57:39     13s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[03/25 19:57:39     13s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[03/25 19:57:39     13s] @(#)CDS: RCDB 11.10
+[03/25 19:57:39     13s] --- Running on compute-srv2.eda.atme.in (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (8cores*64cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB) ---
+[03/25 19:57:39     13s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_96097_compute-srv2.eda.atme.in_vv2trainee4_XqZrrG.
+
+[03/25 19:57:39     13s] Change the soft stacksize limit to 0.2%RAM (1031 mbytes). Set global soft_stack_size_limit to change the value.
+[03/25 19:57:40     13s] 
+[03/25 19:57:40     13s] **INFO:  MMMC transition support version v31-84 
+[03/25 19:57:40     13s] 
+[03/25 19:57:40     13s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[03/25 19:57:40     13s] <CMD> suppressMessage ENCEXT-2799
+[03/25 19:57:40     13s] <CMD> getVersion
+[03/25 19:57:43     13s] <CMD> win
+[03/25 19:57:51     14s] <CMD> win off

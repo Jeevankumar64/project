@@ -1,0 +1,11 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Jun 21, 2025 at 00:41:42 IST
+irun
+	-access +rwc
+	S_Box.v
+Loading snapshot worklib.S_BOX:v .................... Done
+ncsim> source /home/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on Jun 21, 2025 at 00:41:42 IST  (total: 00:00:00)
